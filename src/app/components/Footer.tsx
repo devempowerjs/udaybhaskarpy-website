@@ -140,14 +140,14 @@ export function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             {/* Copyright */}
             <p className="text-gray-500 text-sm text-center md:text-left">
-              © {currentYear} Uday Bhaskar. All rights reserved.
+              © {currentYear} Mayank Raj(devempowerjs). All rights reserved.
             </p>
 
             {/* Made with Love */}
             <p className="flex items-center gap-2 text-gray-500 text-sm">
               Made with{' '}
               <Heart size={16} className="text-red-500 fill-red-500 animate-pulse" />{' '}
-              and Python
+              and ☕ in India by Mayank Raj(devempowerjs).
             </p>
 
             {/* Tech Stack */}
