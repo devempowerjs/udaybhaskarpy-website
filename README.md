@@ -1,2 +1,11 @@
-# udaybhaskarpy-website
-A clean, responsive asthethic portfolio website featuring smooth animations and a modern frontend stack for my client.
+
+  # Premium Personal Portfolio Website
+
+  This is a code bundle for Premium Personal Portfolio Website. The original project is available at https://www.figma.com/design/OFLBIxafwLfLCc2zurokmI/Premium-Personal-Portfolio-Website.
+
+  ## Running the code
+
+  Run `npm i` to install the dependencies.
+
+  Run `npm run dev` to start the development server.
+  

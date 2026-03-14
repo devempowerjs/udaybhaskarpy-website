@@ -1,0 +1,32 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(2 6 23);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgb(6 182 212) 0%, rgb(59 130 246) 50%, rgb(139 92 246) 100%);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, rgb(34 211 238) 0%, rgb(96 165 250) 50%, rgb(167 139 250) 100%);
+}
+
+/* Selection color */
+::selection {
+  background-color: rgb(6 182 212 / 0.3);
+  color: rgb(255 255 255);
+}
