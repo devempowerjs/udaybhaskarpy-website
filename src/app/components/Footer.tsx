@@ -147,7 +147,7 @@ export function Footer() {
             <p className="flex items-center gap-2 text-gray-500 text-sm">
               Designed & Developed with{' '}
               <Heart size={16} className="text-red-500 fill-red-500 animate-pulse" />{' '}
-              by Mayank Raj(devempowerjs) Github: <a href="https://github.com/devempowerjs" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">devempowerjs</a>
+              by Mayank Raj(<a href="https://github.com/devempowerjs" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">devempowerjs</a>)
             </p>
 
             {/* Tech Stack */}
@@ -157,7 +157,7 @@ export function Footer() {
           </div>
         </motion.div>
 
-// footer update
+
         {/* Scroll to Top Indicator */}
         <motion.button
           onClick={() => scrollToSection('#home')}
