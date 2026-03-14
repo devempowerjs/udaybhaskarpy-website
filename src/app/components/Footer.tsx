@@ -147,7 +147,7 @@ export function Footer() {
             <p className="flex items-center gap-2 text-gray-500 text-sm">
               Made with{' '}
               <Heart size={16} className="text-red-500 fill-red-500 animate-pulse" />{' '}
-              and ☕ in India by Mayank Raj(devempowerjs).
+              by Mayank Raj. Developer Github: (devempowerjs).
             </p>
 
             {/* Tech Stack */}
